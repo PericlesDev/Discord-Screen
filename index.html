@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Formulário</title>
 </head>
 <body>
@@ -18,21 +19,28 @@
     </div>
 
 
-    <div class="linha2">
+    <div class="linha">
     <label>E-mail: <br>
     <input name="email" type="text" placeholder="Digite seu E-mail" id="email" size="40">
     </label>
     </div>
 
 
-    <div class="linha3">
+    <div class="linha">
     <label>Senha: <br>
     <input name="password" type="password" placeholder="Digite sua senha" id="senha" size="40">
     </label>
     </div>
 
 
-    <div class="linha3">
+    <div class="linha">
+    <label>Telefone: <br>
+    <input name="telefone" type="tel" placeholder="Digite seu telefone" id="tel" size="15">                 
+    </label>
+    </div>
+
+
+    <div class="genero">
     <label>Gênero: <br>
     <input name="fem" type="radio" value="feminino">Feminino    
     <input name="mas" type="radio" value="masculino">Masculino
@@ -40,7 +48,7 @@
     </label>
     </div>
 
-    <div class="linha4">
+    <div class="linha2">
     <label>Estado: <br>
     <select name="estado" id="estado">
     <option>SP - São Paulo</option>
@@ -53,27 +61,20 @@
     </div>
 
 
-    <div class="linha5">
+    <div class="linha">
     <label>Comentários: <br>
     <textarea name="comentarios" cols="30" rows="4" id="comentarios"></textarea>
     </label>
     </div>
-
-
-    <div class="linha6">
-    <label>
-    <input name="newsletter" type="checkbox" id="newsletter" value="sim">Quero receber as atualizações
-    </label>
-    </div>
-
-    <div class="linha7">
+   
+    <div class="linha3">
     <label>
     <input name="Enviar" type="submit" id="Enviar" value="Enviar">
     </label>
     </div>
 
-
     </fieldset>
+    </label>
     </form>
 
 </body>

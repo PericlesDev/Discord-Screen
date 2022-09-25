@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: #FFEBCD;
+}
+
+legend {
+   text-align: center;
+}
+fieldset legend{
+    color: black;
+}
+
+#form legend {
+    color: #333366;
+    font-weight: bold;
+}
+
+#form fieldset {
+    padding: 20px 10px 20px 10px;
+    width: 300px;
+}
+.genero {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#form label1{
+    color: #FF9900;
+}
+
+.linha, .linha2 {
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.linha3{
+    text-align: center;
+}
+
+.linha3 input {
+    color: red;
+}
+
+input, select, textarea {
+    background-color: #F4F4F4;
+}
