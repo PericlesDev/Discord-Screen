@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form id="form" name="form" method="post" action="#">
+    <fieldset>
+    <legend>Preencha os dados abaixo:</legend>
+
+    <div class="linha">
+    <label>Nome: <br>
+    <input name="nome" type="text" placeholder="Digite seu nome completo" id="nome" size="40">
+    </label>
+    </div>
+
+
+    <div class="linha2">
+    <label>E-mail: <br>
+    <input name="email" type="text" placeholder="Digite seu E-mail" id="email" size="40">
+    </label>
+    </div>
+
+
+    <div class="linha3">
+    <label>Senha: <br>
+    <input name="password" type="password" placeholder="Digite sua senha" id="senha" size="40">
+    </label>
+    </div>
+
+
+    <div class="linha3">
+    <label>Gênero: <br>
+    <input name="fem" type="radio" value="feminino">Feminino    
+    <input name="mas" type="radio" value="masculino">Masculino
+    <input name="others" type="radio" value="outros">Outros
+    </label>
+    </div>
+
+    <div class="linha4">
+    <label>Estado: <br>
+    <select name="estado" id="estado">
+    <option>SP - São Paulo</option>
+    <option>RJ - Rio de Janeiro</option>
+    <option>MG - Minas Gerais</option>
+    <option>BA - Bahia</option>
+    <option>BH - Belo Horizonte</option>
+    </select>
+    </label>
+    </div>
+
+
+    <div class="linha5">
+    <label>Comentários: <br>
+    <textarea name="comentarios" cols="30" rows="4" id="comentarios"></textarea>
+    </label>
+    </div>
+
+
+    <div class="linha6">
+    <label>
+    <input name="newsletter" type="checkbox" id="newsletter" value="sim">Quero receber as atualizações
+    </label>
+    </div>
+
+    <div class="linha7">
+    <label>
+    <input name="Enviar" type="submit" id="Enviar" value="Enviar">
+    </label>
+    </div>
+
+
+    </fieldset>
+    </form>
+
+</body>
+</html>
