@@ -1,48 +1,132 @@
-body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    background: #FFEBCD;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-legend {
-   text-align: center;
-}
-fieldset legend{
-    color: black;
-}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 
-#form legend {
-    color: #333366;
+    color: #fff;
     font-weight: bold;
+    font-size: 1.35rem;
 }
 
-#form fieldset {
-    padding: 20px 10px 20px 10px;
-    width: 300px;
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url(Image/Background.jpeg) no-repeat;
+    background-size: 100% 100%;
 }
-.genero {
-    padding-top: 10px;
+
+img {
+    width: 178px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #6275bb;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 786px;
+    display: flex;
+    background-color: #36393F;
+    color: #fff;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.left {
+    width: 100%;
+    margin-right: 75px;
+}
+.left .form {
+    display: flex;
+    flex-direction: column;
+}
+.left .header {
     text-align: center;
 }
+.left .header h2 {
+    margin-bottom: 5px;
+}
+.left .header p {
+    margin-bottom: 15px;
+    color: rgb(182, 182, 182);
+    font-size: .95rem;
+}
+.left .form label {
+    font-size: .7rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.left .form input {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #313339;
+    outline: none;
+    border: 1px solid rgb 35, 35, 35;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 10px;
+    margin-bottom: 3px;
+}
+.left .form input:focus {
+    border: 1px solid #6275bb;
+}
+.left .form span {
+    letter-spacing: -.2px;
+    margin-bottom: 20px;
+    font-size: .9rem;
+}
+.left .form button {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: #6275bb;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    cursor-pointer;
 
-#form label1{
-    color: #FF9900;
+}
+.left .form button:hover {
+    background-color: #50609b;
+}
+.left .form .singin {
+    font--size: .9rem;
+    color: rgb 182, 182, 182;
 }
 
-.linha, .linha2 {
-    margin: 10px;
-    padding-top: 5px;
-    padding-left: 5px;
-}
 
-.linha3{
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
-
-.linha3 input {
-    color: red;
+.right h2 {
+ margin-bottom: 10px;
 }
-
-input, select, textarea {
-    background-color: #F4F4F4;
+.right p {
+  font-size: .95rem;
 }
