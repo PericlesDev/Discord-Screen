@@ -4,78 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Formulário</title>
+    <link rel="stylesheet" href="./public/CSS/style.css">
+    <title>Formulário de Login - Discord</title>
 </head>
 <body>
-    <form id="form" name="form" method="post" action="#">
-    <fieldset>
-    <legend>Preencha os dados abaixo:</legend>
+    <div class="logo">P É R I C L E S</div>
 
-    <div class="linha">
-    <label>Nome: <br>
-    <input name="nome" type="text" placeholder="Digite seu nome completo" id="nome" size="40">
-    </label>
+    <div class="container">
+
+    <div class="left">
+
+    <div class="header">
+        <h2>Boas-vindas de volta!</h2>
+        <p>Estamos muito animados em te ver novamente</p>
     </div>
 
+    <form action="#" class="form">
+    <label for="email">E-mail ou Número de telefone</label>
+    <input type="text" class="email" id="email">
 
-    <div class="linha">
-    <label>E-mail: <br>
-    <input name="email" type="text" placeholder="Digite seu E-mail" id="email" size="40">
-    </label>
+    <label for="password">Senha</label>
+    <input type="password" class="password" id="password">
+    <span class="forgot"><a href="">Esqueceu sua senha?</a></span>
+
+          <button id="button">Entrar</button>
+    
+    <div class="singin">
+        <p>Precisando de uma conta?<span><a href="">Registre-se</a></span></p>
+    </div>
+    </form>   
     </div>
 
-
-    <div class="linha">
-    <label>Senha: <br>
-    <input name="password" type="password" placeholder="Digite sua senha" id="senha" size="40">
-    </label>
+    <div class="right">
+    <img src="./public/Image/qrCode.png" alt="Escaneador automatico de Login">
+    <h2>Entrar com Código QR</h2>
+    <p>Escaneie isto com o <b>app movel</b> para fazer login automaticamente</p>
     </div>
-
-
-    <div class="linha">
-    <label>Telefone: <br>
-    <input name="telefone" type="tel" placeholder="Digite seu telefone" id="tel" size="15">                 
-    </label>
     </div>
-
-
-    <div class="genero">
-    <label>Gênero: <br>
-    <input name="fem" type="radio" value="feminino">Feminino    
-    <input name="mas" type="radio" value="masculino">Masculino
-    <input name="others" type="radio" value="outros">Outros
-    </label>
-    </div>
-
-    <div class="linha2">
-    <label>Estado: <br>
-    <select name="estado" id="estado">
-    <option>SP - São Paulo</option>
-    <option>RJ - Rio de Janeiro</option>
-    <option>MG - Minas Gerais</option>
-    <option>BA - Bahia</option>
-    <option>BH - Belo Horizonte</option>
-    </select>
-    </label>
-    </div>
-
-
-    <div class="linha">
-    <label>Comentários: <br>
-    <textarea name="comentarios" cols="30" rows="4" id="comentarios"></textarea>
-    </label>
-    </div>
-   
-    <div class="linha3">
-    <label>
-    <input name="Enviar" type="submit" id="Enviar" value="Enviar">
-    </label>
-    </div>
-
-    </fieldset>
-    </label>
-    </form>
-
+<script src="./public/JS/script.js"></script>
 </body>
 </html>
