@@ -1,12 +1,12 @@
 # Tela de Login do Discord
-<p>Desenvolvimento da interface de autenticação do Discord</p>
+>  *Interface de autenticação do Discord | Login*
 
 ![DiscordScreen](https://user-images.githubusercontent.com/91090285/194599991-fa4e9833-cdf8-4f79-a4f1-6470c44229ac.png)
 
 
-🛠 Tecnologias utilizadas
+<h2>🛠 Tecnologias utilizadas 🛠</h2>
 
-- HTML5
-- CSS3
-- Javascript
+- 🟧HTML5
+- 🟦CSS3
+- 🟨Javascript
 
